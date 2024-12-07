@@ -1,0 +1,36 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.srl::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra */
+}
+
+.srl::-webkit-scrollbar-thumb {
+  background-color: #A0153E; /* Azul para el pulgar */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.srl::-webkit-scrollbar-track {
+  background-color: #d1d5db; /* Gris claro para el track */
+}
+.ace_scrollbar::-webkit-scrollbar {
+  width: 4px; /* Ancho de la barra */
+}
+
+.ace_scrollbar::-webkit-scrollbar-thumb {
+  background-color: #A0153E; /* Azul para el pulgar */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+.ace_scrollbar::-webkit-scrollbar-track {
+  background-color: #d1d5db; /* Gris claro para el track */
+}

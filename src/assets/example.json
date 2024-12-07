@@ -1,0 +1,14 @@
+{
+  "message": "Texto recuperado con éxito",
+  "data": [
+    {
+      "id": 1,
+      "name": "facu"
+    },
+    {
+      "id": 2,
+      "name": "juan"
+    }
+  ],
+  "createdAt": "2024-11-18T16:12:11.166Z"
+}
